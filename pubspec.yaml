@@ -1,0 +1,9 @@
+# pubspec.yaml
+name: import_restrict_linter
+environment:
+  sdk: ">=2.16.0 <3.0.0"
+
+dependencies:
+  # we will use analyzer for inspecting Dart files
+  analyzer_plugin: ^0.11.3
+  custom_lint_builder: ^0.5.11
